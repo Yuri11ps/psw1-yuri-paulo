@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+#cabecalho {
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    height: 80px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+}
+
+.links {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.caixa-links {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #333333;
+    margin-left: 20px;
+}
+
+.link:hover {
+    color: #4285F4;
+}
+
+footer {
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    height: 20vh;
+    margin-left: 20px;
+}
+
+.culuna-de-links1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.culuna-de-links1 h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.linkr p {
+    font-size: 16px;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.linkr:hover {
+    text-decoration: underline;
+}
+
+.container-principal {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa_resutado {
+    margin-bottom: 30px;
+}
+
+.caixa_resutado h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.linhas-forms {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #888;
+}
+
+.input-group p {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.w50 {
+    width: 50%;
+}
